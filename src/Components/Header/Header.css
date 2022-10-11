@@ -1,0 +1,25 @@
+.logo img{
+    height: 50px;
+    width: 50px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.links a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
