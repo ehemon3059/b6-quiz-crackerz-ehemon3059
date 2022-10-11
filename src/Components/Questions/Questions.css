@@ -12,3 +12,17 @@
    
 
 }
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.show-answer{
+    display: flex;
+    
+}
+.icon{
+    font-size: 25px;
+    color: red;
+}

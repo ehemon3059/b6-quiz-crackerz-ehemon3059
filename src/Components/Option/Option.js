@@ -9,11 +9,11 @@ const Option = ({option,correctAnswer}) => {
     function handleChange(event) {
       //  console.log(event.target.value);
         if(event.target.value === correctAnswer){
-             console.log("Currect answer");
-            toast.success('Successfully toasted!')
+             console.log("Correct answer");
+            toast.success('Correct answer!')
         }else{
              console.log("Worng answer");
-            toast.error("This didn't work.")
+            toast.error("Wrong answer.")
         }
       }
    
@@ -21,9 +21,13 @@ const Option = ({option,correctAnswer}) => {
         <div>
             <div><Toaster/></div>
             <div className="questions-options" onChange={handleChange}>
-                {/* <input type="radio" id="html" name="fav_language" value={options}    />
-                <label for={options}>{options}</label><br/> */}
-                <input type="radio" value={options} name="gender" /> {options}
+       
+
+                <label className='radio-container'>
+                       
+                    <input type="radio" name="name" value={options}  />  {options}
+                    <span class="checkmark"></span>
+                </label>
 
             </div>           
         </div>
