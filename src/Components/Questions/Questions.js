@@ -4,7 +4,7 @@ import './Questions.css'
 
 const Questions = ({quiz}) => { 
     const {correctAnswer, id ,options ,question   } = quiz;
-    console.log(quiz);
+   // console.log(quiz);
 
     return (
         <div>
@@ -12,7 +12,7 @@ const Questions = ({quiz}) => {
                 <h3>Question :  {question}</h3>
                 <div className="options">
                 {
-                    options.map(option => <Option key ={id}  option ={option} correctAnswer={correctAnswer}></Option>)
+                    options.map(option => <Option   option ={option} correctAnswer={correctAnswer}></Option>)
                 }
                 </div>
             </div>
