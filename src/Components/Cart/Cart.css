@@ -1,0 +1,33 @@
+.carts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.533);
+
+}
+.carts img{
+    height: 300px;
+    width: 300px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.details button{
+    height: 40px;
+    width: 120px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+}
+.details button:hover{
+    background-color: #00b176;
+}

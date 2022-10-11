@@ -10,9 +10,9 @@ const Header = () => {
               <img src={logo} alt="" /> &nbsp;&nbsp; <h2>Online Quiz</h2>
             </div>
             <nav className='links'>
-                <Link to=''>Topic</Link>
-                <Link to='' >Statistics</Link>
-                <Link to=''>Blogs</Link>
+                <Link to='/'>Topic</Link>
+                <Link to='Statistics' >Statistics</Link>
+                <Link to='Blogs'>Blogs</Link>
             </nav>
             
         </div>

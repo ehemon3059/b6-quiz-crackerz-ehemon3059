@@ -2,6 +2,9 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Main from './Layouts/Main';
+import Topic from './Components/Topic/Topic';
+import Statistics from './Components/Statistics/Statistics';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
 
@@ -13,7 +16,17 @@ function App() {
       [
         {
           path: '/',
+           loader:() => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element:<Topic></Topic>
           
+        },
+        {
+          path:'Statistics',
+          element:<Statistics></Statistics>
+        },
+        {
+          path:'Blogs',
+          element:<Blogs></Blogs>
         }
       ]
     }
