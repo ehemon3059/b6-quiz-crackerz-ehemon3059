@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cart.css'
 
 const Cart = ({cart}) => {
-    console.log(cart);
+  
     const {id,name,logo,total} = cart;
     return (
         <div>
@@ -13,7 +14,7 @@ const Cart = ({cart}) => {
                 <div className="details">
                     <h4>{name}</h4>
                     <p>Total: {total}</p>
-                    <button>Start Practice</button>
+                    <p className='practice-btn'>User Name: <Link to={`/quiz/${id}`}>{name}</Link> </p>
                 </div>
             </div>
            

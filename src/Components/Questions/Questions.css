@@ -1,0 +1,14 @@
+.questions{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 80px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+
+}

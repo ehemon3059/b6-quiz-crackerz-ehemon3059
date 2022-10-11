@@ -21,13 +21,14 @@
     justify-content: space-between;
     align-items: center;
 }
-.details button{
+.practice-btn{
     height: 40px;
     width: 120px;
     background-color: aquamarine;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
-.details button:hover{
+.practice-btn:hover{
     background-color: #00b176;
 }

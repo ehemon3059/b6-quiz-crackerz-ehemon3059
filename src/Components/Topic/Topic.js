@@ -1,12 +1,13 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import './Topic.css'
 
 const Topic = () => {
     const topics = useLoaderData();
     const carts= topics.data;
-    console.log(topics);
+
+   
     return (
         <div>
             <h1>This is topic</h1>
@@ -17,7 +18,7 @@ const Topic = () => {
                     carts.map(cart=><Cart 
                         key={cart.id}
                         cart={cart}
-                       
+                      
                         ></Cart>)
                 }
 
