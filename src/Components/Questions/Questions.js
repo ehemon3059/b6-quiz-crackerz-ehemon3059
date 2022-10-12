@@ -13,12 +13,16 @@ const Questions = ({quiz}) => {
 const handelAnswer =() =>{
     toast.success(correctAnswer);
 }
+
+const  str = question;
+const result = str.replace("<p>",' ');
+
     return (
         <div>
             <div><Toaster/></div>
             <div className="questions">
                 <div className="elements">
-                    <h3>Question :  {question}</h3>
+                    <h4>{result}</h4>
                     <div className="show-answer" onClick={handelAnswer}>
                         <h4>show answer </h4>
                         <span className='icon' ><FaRegEyeSlash/></span>
