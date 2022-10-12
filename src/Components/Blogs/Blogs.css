@@ -1,9 +1,13 @@
 .heading{
+
     border: 2px solid gray;
     border-radius: 10px;
     height: 80px;
     width: 61.5%;
     background-color: rgba(219, 219, 219, 0.689)
+}
+.programmer-title{
+    margin-top: 50px;
 }
 .question-answer{
     display: flex;
@@ -68,5 +72,9 @@
     }
     .question-answer:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .programmer-title{
+        margin-top: 30px;
+        font-size: 20px;
     }
   }

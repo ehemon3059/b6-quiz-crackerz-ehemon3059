@@ -4,7 +4,7 @@ const Blogs = () => {
 
     return (
         <div>
-            <h1>THis is blogs</h1>
+            <h1 className='programmer-title'>Blogs for Programmer</h1>
             <div className="main-container">
                 <div className="child-container">
                     <div className="heading">
