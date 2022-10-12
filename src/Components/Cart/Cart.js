@@ -15,7 +15,7 @@ const Cart = ({cart}) => {
                 <div className="details">
                     <h4>{name}</h4>
                     <p>Total: {total}</p>
-                    <p className='practice-btn'>User Name: <Link to={`/quiz/${id}`}>{name}</Link> </p>
+                    <p className='practice-btn'><Link  to={`/quiz/${id}`}>{name}</Link> </p>
                 </div>
             </div>
            

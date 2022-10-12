@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
-    width: 300px;
+    width: 380px;
     border: 2px solid gray;
     border-radius: 10px;
     margin: 10px auto;
     padding: 10px 10px;
     box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.533);
+    background-color: #262626d9;
 
 }
 .carts img{
@@ -20,7 +21,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 10px;
 }
+.details a{
+    text-decoration: none;
+}
+
 .practice-btn{
     height: 40px;
     width: 120px;
@@ -28,7 +37,64 @@
     border: none;
     cursor: pointer;
     text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+   
+
 }
 .practice-btn:hover{
     background-color: #00b176;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .carts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+        width: 250px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 5px 5px;
+        box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.533);
+        background-color: #262626d9;
+    
+    }
+    .carts img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        font-size: 18px;
+    }
+    .details a{
+        text-decoration: none;
+    }
+    .practice-btn{
+        height: 40px;
+        width: 100px;
+        background-color: aquamarine;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 5px 5px;
+    
+    }
+  }

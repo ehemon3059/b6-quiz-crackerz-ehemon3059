@@ -11,6 +11,7 @@
 }
 .header{
     display: flex;
+    width: 100%;
     background-color: antiquewhite;
     align-items: center;
     justify-content: space-evenly;
@@ -23,3 +24,29 @@
     font-size: 20px;
 
 }
+
+@media only screen and (max-width: 600px) {
+   
+    .header{
+        display: flex;
+        width: 100%;
+        background-color: antiquewhite;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        color: blueviolet;
+        font-size: 10px;
+    }
+    .links a{
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 10px;
+    
+    }
+   
+  }

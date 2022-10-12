@@ -1,4 +1,27 @@
 .staistics{
 display: flex;
-    margin: 0 auto;
+margin: 100px auto;
+width: 30%;
 }
+.title{
+    margin: 100px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #0297c1de ;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .staistics{
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+        }
+        .title{
+            margin-top: 80px;
+            font-size: 10px;
+            font-weight: 100;
+            color: #0297c1de ;
+        }
+   
+  }

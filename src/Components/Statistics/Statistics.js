@@ -27,16 +27,22 @@ const Statistics = () => {
     },[])
     return (
         <div>
-            <h1>This is Statistics</h1>
+            <div className='title'> 
+
+            <h1>This is Questions Statistics</h1>
+            </div>
+            <ResponsiveContainer width="100%" height="100%">
                 <div className="staistics">
-                    
-                    <BarChart width={500} height={200} data={total}>
+                
+                    <BarChart width={400} height={200} data={total}>
                         <Bar dataKey="total" fill="#8884d8" />
-                        <XAxis dataKey="" />
+                        <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip></Tooltip>
                     </BarChart>
+                
                 </div>
+            </ResponsiveContainer>
         </div>
     );
 };
