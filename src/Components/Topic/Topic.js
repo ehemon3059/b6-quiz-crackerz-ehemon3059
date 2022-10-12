@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import './Topic.css'
+import img from './'
 
 const Topic = () => {
     const topics = useLoaderData();
@@ -11,7 +12,11 @@ const Topic = () => {
     return (
         <div>
             <h1>This is topic</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim amet eum nam assumenda accusantium quia quis, labore nisi nobis porro deleniti aperiam accusamus minima voluptatum recusandae autem, libero natus magnam nostrum voluptatibus qui illum fuga. Nobis necessitatibus provident velit veniam tenetur commodi aperiam ad incidunt corrupti officia neque obcaecati, magnam iusto consectetur quos mollitia quis tempora unde quam asperiores similique minus harum ab consequuntur. Ipsum omnis aspernatur maxime distinctio provident perferendis, veritatis repellat iste quod corrupti, placeat et earum reiciendis dolorem voluptas accusamus quasi dolorum! Iste corrupti accusamus doloribus odit, similique delectus voluptatem possimus dolor itaque unde eos at?</p>
+            <div className="quiz-container">
+                <img src="" alt="" />
+            <p>Check out our online computer programming quizzes to enhance your knowledge, learn new things or prepare for an upcoming test. Made up of well-researched and interesting quiz questions, each and every quiz here can test your awareness and grasp of the subject.</p>
+            </div>
+         
             <div className="cart-container">
                 
                 {
