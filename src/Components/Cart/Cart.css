@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
-    width: 380px;
+    width: 320px;
     border: 2px solid gray;
     border-radius: 10px;
     margin: 10px auto;
@@ -48,9 +48,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+   
 
     .carts{
         display: flex;
