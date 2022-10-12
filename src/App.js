@@ -6,6 +6,7 @@ import Topic from './Components/Topic/Topic';
 import Statistics from './Components/Statistics/Statistics';
 import Blogs from './Components/Blogs/Blogs';
 import Quiz from './Components/Quiz/Quiz';
+import NotFound from './NotFound/NotFound';
 
 function App() {
 
@@ -38,6 +39,10 @@ function App() {
           element:<Quiz></Quiz>
         }
       ]
+    },
+    {
+      path:'*',
+      element: <NotFound></NotFound>
     }
 
   ]);
