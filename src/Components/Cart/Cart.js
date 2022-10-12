@@ -5,6 +5,7 @@ import './Cart.css'
 const Cart = ({cart}) => {
   
     const {id,name,logo,total} = cart;
+
     return (
         <div>
             <div className="carts">
